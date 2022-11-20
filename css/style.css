@@ -16,12 +16,12 @@ Primary style
   body {
     font-size: 100%;
     font-family: "PT Sans", sans-serif;
-    color: #07024f;
+    color: #592b00;
     background-color: #f0eee8;
   }
   
   a {
-    color: #1e6074;
+    color: #ffa136;
     text-decoration: none;
   }
   
@@ -136,7 +136,7 @@ Primary style
     transition-property: transform;
   }
   .cd-nav-trigger::before {
-    background-color: #07024f;
+    background-color: #592b00;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
@@ -187,7 +187,7 @@ Primary style
   }
   .cd-nav-trigger.close-nav .cd-icon {
     /* user clicks on the .cd-nav-trigger element - transform the icon */
-    background-color: #07024f;
+    background-color: #592b00;
   }
   .cd-nav-trigger.close-nav .cd-icon::before, .cd-nav-trigger.close-nav .cd-icon::after {
     background-color: white;
@@ -216,7 +216,7 @@ Primary style
     width: 100%;
     padding: 80px 5%;
     z-index: 3;
-    background-color:#07024f;
+    background-color:#592b00;
     overflow: auto;
     /* this fixes the buggy scrolling on webkit browsers - mobile devices only - when overflow property is applied */
     -webkit-overflow-scrolling: touch;
@@ -318,8 +318,7 @@ Primary style
     z-index: 2;
   }
   .cd-overlay-nav span {
-    background-color: #07024f
-    ;
+    background-color: #592b00;
   }
   
   .cd-overlay-content {
